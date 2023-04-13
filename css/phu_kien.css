@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin:0  50px 0 50px;
+
+}
+.nav{
+    position: relative;
+}
+.nav1{
+    position: absolute;
+    right: 60px;
+}
+
+.nav2{
+    position: absolute;
+    
+}   
+.c{
+   
+}  
+.c .font_hover:hover{
+    color: red;
+}
+@media screen and (max-width: 900px) {
+    .main{
+        margin: 0  10px 0 10px;
+    }
+    .card-body{
+        margin-left: 5px;
+    }
+}
